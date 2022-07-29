@@ -1,0 +1,63 @@
+
+
+/* ---------------------Maximum Width for 768px------------------------ */
+
+@media (max-width:768px)
+{
+    .togglebar a {
+        font-size: 30px;
+        color:#02bfdb;
+	}
+    .togglebar {
+        display: block;
+	}
+	section .portfo-img img {
+	width: 30%;
+	margin-top: 17px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	}
+
+section .portfo-img-text h2 {
+	text-align: center;
+}
+section .portfo-img-text p {
+	text-align: center;
+}
+section .portfo-img {
+	width: 100%;
+}
+}
+
+
+/* ---------------------Maximum Width for 500px------------------------ */
+
+@media (max-width:500px){
+	section .portfo-img img {
+	width: 40%;
+	margin-top: 17px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+section .hello p {
+	font-size: 14px;
+	padding: 10px 30px;
+}
+
+
+
+section .portfo-img-text h2 {
+	text-align: center;
+}
+section .portfo-img-text p {
+	text-align: center;
+}
+section .portfo-img {
+	width: 100%;
+}
+
+}
+
+
